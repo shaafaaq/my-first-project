@@ -1,0 +1,227 @@
+/* Core styles */
+.container {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+/* Header section */
+.main-header div {
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.main-header {
+    margin-top: 55px;
+}
+
+.main-header__brand img {
+    position: relative;
+    top: 8px;
+    width: 35px;
+    height: 36px;
+}
+
+.main-header__brand-name {
+    text-decoration: none;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0B132A;
+}
+
+.main-navigation__column-items li,
+.main-navigation__sign li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.main-navigation__column-items a {
+    text-decoration: none;
+    color: #4F5665;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.main-navigation__sign a {
+    text-decoration: none;
+}
+
+.main-navigation__sign-in {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 19px;
+    color: #0B132A;
+}
+
+.main-navigation__sign-up {
+    border: 1px solid #F53855;
+    box-sizing: border-box;
+    border-radius: 50px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F53855;
+    padding: 10px 40px;
+}
+
+/* Main section */
+.main-section {
+    display: flex;
+}
+
+.main-section__text-1 {
+    padding-top: 100px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+    color: #0B132A;
+}
+
+.main-section__text-2 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.main-section__texts-button button {
+    margin-top: 50px;
+    background: #F53838;
+    border-radius: 10px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding: 20px 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.main-section__image img {
+    margin-top: 150px;
+    margin-left: 20px;
+    width: 675px;
+    height: 375px;
+}
+
+/* Statistics section */
+.statistics {
+    display: flex;
+    margin-top: 100px;
+    border: none;
+    width: 1140;
+    height: 200px;
+    box-shadow: 0 0 50px 0 #F4F4F5;
+}
+
+.statistics-item {
+    width: 33%;
+    display: flex;
+    margin: 30px;
+    border-right: 3px solid #EEEFF2;
+    height: 150px;
+    
+}
+
+.delete-border-right {
+    border-right: none;
+}
+
+.statistics-item img {
+    padding: 15px;
+    margin: 10px 20px;
+    background: #FFECEC;
+    border-radius: 70px;
+    width: 17px;
+    height: 18px;
+    margin: 50px 55px;
+}
+
+.statistics-item__info {
+    margin: 25px 15px;
+    
+}
+
+.statistics-item__info strong {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.statistics-item__info span {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+/* About me section */
+.about-me {
+    display: flex;
+}
+
+.about-me__image,
+.about-me__items {
+    width: 50%;
+    margin: 70px;
+    margin-top: 100px;
+}
+
+
+
+.about-me__item-1 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #0B132A;
+}
+
+.about-me__item-2 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    margin-bottom: 25px;
+}
+
+.about-me__list {
+    list-style: none;
+}
+
+.about-me__list li span {
+    position: relative;
+    top: -5px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.about-me__list li {
+    margin: 15px -35px;
+}
